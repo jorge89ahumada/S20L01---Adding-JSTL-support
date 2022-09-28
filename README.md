@@ -11,6 +11,8 @@ CREATE TABLE `users` (
   PRIMARY KEY (`users_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-insert into users (username,email) values (?,?);
+insert into users (username,email) values ("Laura", "laura@mail.com");
+insert into users (username,email) values ("Jorge", "jorge@mail.com");
+insert into users (username,email) values ("John", "john@mail.com");
 
 
